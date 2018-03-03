@@ -28,4 +28,9 @@ public abstract class Poligno extends Figura{
 		return getAltura() * getBase();
 	}
 	
+	@Override
+	abstract double perimetro();
+	
+	
+	
 }
