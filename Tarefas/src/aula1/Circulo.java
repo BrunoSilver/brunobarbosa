@@ -4,8 +4,8 @@ public class Circulo extends Figura {
 	
 	double raio;
 	
-	public Circulo(double volume) {
-		this.raio = volume;
+	public Circulo(double raio) {
+		this.raio = raio;
 	}
 	
 	@Override
