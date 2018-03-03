@@ -16,7 +16,6 @@ public class Cilindro extends Circulo implements Volume{
 	
 	@Override
 	double perimetro() {
-		// TODO Auto-generated method stub
 		return ( 2 * Math.PI) * raio;
 	}
 

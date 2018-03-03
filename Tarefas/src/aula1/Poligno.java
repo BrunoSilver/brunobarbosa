@@ -24,7 +24,6 @@ public abstract class Poligno extends Figura{
 	
 	@Override
 	double area() {
-		// TODO Auto-generated method stub
 		return getAltura() * getBase();
 	}
 	

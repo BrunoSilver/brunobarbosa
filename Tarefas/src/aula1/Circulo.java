@@ -10,13 +10,11 @@ public class Circulo extends Figura {
 	
 	@Override
 	double area() {
-		// TODO Auto-generated method stub
 		return Math.PI * Math.pow(raio, 2);
 	}
 
 	@Override
 	double perimetro() {
-		// TODO Auto-generated method stub
 		return 2 * Math.PI * raio;
 	}
 	

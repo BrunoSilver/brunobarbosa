@@ -9,7 +9,6 @@ public class Piramide extends Poligno implements Volume{
 
 	@Override
 	double perimetro() {
-		// TODO Auto-generated method stub
 		return 0;
 	}
 

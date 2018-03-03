@@ -9,13 +9,11 @@ public class Losango extends Poligno{
 
 	@Override
 	double area() {
-		// TODO Auto-generated method stub
 	return super.area();
 	}
 
 	@Override
 	double perimetro() {
-		// TODO Auto-generated method stub
 		return 4 * getAltura();
 	}
 	
