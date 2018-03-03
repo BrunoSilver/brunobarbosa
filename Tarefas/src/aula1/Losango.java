@@ -1,6 +1,6 @@
 package aula1;
 
-public class Losango extends Poligno{
+public class Losango extends Poligono{
 	
 	public Losango(double altura, double base) {
 	super.setAltura(altura);

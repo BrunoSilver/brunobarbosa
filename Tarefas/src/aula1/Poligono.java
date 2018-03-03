@@ -1,6 +1,6 @@
 package aula1;
 
-public abstract class Poligno extends Figura{
+public abstract class Poligono extends Figura{
 	
 	private double base;
 	private double altura;

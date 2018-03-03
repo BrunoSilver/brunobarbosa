@@ -1,6 +1,6 @@
 package aula1;
 
-public class Triangulo extends Poligno{
+public class Triangulo extends Poligono{
 	private double lateral;
 	
 	public Triangulo(double altura, double base, double lateral) {

@@ -1,6 +1,6 @@
 package aula1;
 
-public class Trapezio extends Poligno{
+public class Trapezio extends Poligono{
 		double base;
 	
 	public Trapezio(double base, double segundaBase, double altura) {

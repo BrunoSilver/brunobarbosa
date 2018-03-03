@@ -1,6 +1,6 @@
 package aula1;
 
-public class Quadrado extends Poligno implements Diagonal{
+public class Quadrado extends Poligono implements Diagonal{
 	
 	public Quadrado(double altura, double base) {
 		super.setAltura(altura);

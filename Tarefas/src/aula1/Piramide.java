@@ -1,6 +1,6 @@
 package aula1;
 
-public class Piramide extends Poligno implements Volume{
+public class Piramide extends Poligono implements Volume{
 
 	public Piramide(double base, double altura) {
 		setBase(base);

@@ -1,6 +1,6 @@
 package aula1;
 
-public class Retangulo extends Poligno implements Diagonal{
+public class Retangulo extends Poligono implements Diagonal{
 	
 	public Retangulo(double altura, double base) {
 		super.setAltura(altura);
