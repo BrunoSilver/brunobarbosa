@@ -2,6 +2,8 @@ package aula1;
 
 public class Piramide extends Poligono implements Volume{
 
+	double lateral;
+	
 	public Piramide(double base, double altura) {
 		setBase(base);
 		setAltura(altura);
@@ -9,7 +11,7 @@ public class Piramide extends Poligono implements Volume{
 
 	@Override
 	double perimetro() {
-		return 0;
+		return getAltura() + getBase() + (lateral = getAltura());
 	}
 
 	@Override

@@ -14,7 +14,7 @@ public class Triangulo extends Poligono{
 	}
 	@Override
 	double perimetro() {
-		return getAltura() + getBase() + lateral;
+		return getAltura() + getBase() + lateral ;
 	}
 	
 	
